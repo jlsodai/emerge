@@ -30,6 +30,43 @@ const steps = [
   "Programme start - 5 June 2024",
 ];
 
+const experts = [
+  {
+    name: "Rosalind Kainyah",
+    imgUrl:
+      "https://res.cloudinary.com/tbra/image/upload/v1690559964/RachelK_l1ecvs.jpg",
+  },
+  {
+    name: "Rachel Nyaradzo Adams",
+    imgUrl:
+      "https://res.cloudinary.com/dhhw72iwq/image/upload/v1712737349/RachelN_eyimu9.jpg",
+  },
+  {
+    name: "Majorie Ngwenya",
+    imgUrl:
+      "https://res.cloudinary.com/dhhw72iwq/image/upload/v1706882895/Marjorie_h1vxy7.jpg",
+  },
+  {
+    name: "Lanre Fisher",
+    imgUrl:
+      "https://res.cloudinary.com/dhhw72iwq/image/upload/v1712737565/Lanre_alfsbz.jpg",
+  },
+  {
+    name: "Marcia Ashong-Sam",
+    imgUrl:
+      "https://res.cloudinary.com/tbra/image/upload/v1680706201/marcia_yzavpl.jpg",
+  },
+  {
+    name: "Khurshed Moakes",
+    imgUrl:
+      "https://res.cloudinary.com/dhhw72iwq/image/upload/v1712737564/khurshed_iogedz.jpg",
+  },
+  {
+    name: "Akiniyi Ochieng",
+    imgUrl:
+      "https://res.cloudinary.com/dhhw72iwq/image/upload/v1712737566/akinyi_kzvg8u.jpg",
+  },
+];
 export default function Home() {
   return (
     <>
@@ -49,6 +86,8 @@ export default function Home() {
               className="text-white border-white"
               variation="white"
               title="Apply Today"
+              target="_blank"
+              href="https://emergeapplication.paperform.co/"
             />
           </div>
         </div>
@@ -186,16 +225,15 @@ export default function Home() {
           <h2 className="text-6xl text-darkblue mb-16 text-center">
             Programme Experts
           </h2>
-          <div className="grid md:grid-cols-3 gap-16 justify-center">
-            {[...Array(6)].map((e, i) => (
+          <div className="grid md:grid-cols-4 gap-16 justify-center">
+            {experts.map((expert, i) => (
               <div key={i} className="">
                 <img
-                  className="rounded-xl"
-                  src="https://placehold.co/400x400/orange/orange"
+                  className="rounded-xl h-80 w-full object-cover object-top lg:w-full"
+                  src={expert.imgUrl}
                   alt=""
                 />
-                <p>Name Here</p>
-                <p>Title Here</p>
+                <p className="mt-4 font-bold text-center">{expert.name}</p>
               </div>
             ))}
           </div>
@@ -220,7 +258,11 @@ export default function Home() {
             <p>Make Your Mark. Apply Today.</p>
           </div>
           <div className="flex flex-col gap-4 items-start">
-            <PageButton title="Apply Today" />
+            <PageButton
+              title="Apply Today"
+              target="_blank"
+              href="https://emergeapplication.paperform.co/"
+            />
             <PageButton title="FAQs" href="/faqs" />
           </div>
         </div>

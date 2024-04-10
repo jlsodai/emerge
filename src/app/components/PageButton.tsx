@@ -6,9 +6,11 @@ const PageButton = ({
   title = "",
   className = "",
   variation = "dusk",
+  target = "",
 }) => {
   return (
     <Link
+      target={target}
       href={href}
       className={`flex gap-4 items-center px-12 py-4 border-2 border-dusk font-bold ${className}`}
     >
