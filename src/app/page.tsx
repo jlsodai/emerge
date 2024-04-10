@@ -280,7 +280,7 @@ export default function Home() {
       >
         <div className="container py-24">
           <div className="bg-white p-16 gap-24 rounded-xl">
-            <div className="flex -md:flex-col gap-8 md:gap-24 items-end">
+            <div className="flex -md:flex-col gap-8 md:gap-24 md:items-end">
               <p className="text-7xl">
                 Contact <br /> Information
               </p>
