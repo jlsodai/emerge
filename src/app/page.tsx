@@ -64,7 +64,7 @@ const experts = [
   {
     name: "Akiniyi Ochieng",
     imgUrl:
-      "https://res.cloudinary.com/dhhw72iwq/image/upload/v1712737566/akinyi_kzvg8u.jpg",
+      "https://res.cloudinary.com/dhhw72iwq/image/upload/v1712740151/akinyi_m7ubmf.webp",
   },
 ];
 export default function Home() {
@@ -190,10 +190,10 @@ export default function Home() {
               skills, network, and insights to excel.
             </p>
           </div>
-          <div className="pb-24 md:pb-0">
+          <div className="pb-24 md:pb-0 md:h-full">
             <img
               src="https://res.cloudinary.com/dhhw72iwq/image/upload/v1712579756/NextGenOpportunity_zo8bil.jpg"
-              className="md:my-24"
+              className="md:h-full md:object-cover"
               alt=""
             />
           </div>
@@ -245,8 +245,8 @@ export default function Home() {
       </section>
       <section className="py-24 bg-dawn">
         <div className="container -md:flex-col flex items-center justify-center gap-24">
-          <h2 className="text-6xl text-darkblue underline text-center">
-            Programme <br /> Sponsor
+          <h2 className="text-6xl text-darkblue text-center">
+            In partnership <br /> with
           </h2>
           <img
             src="https://res.cloudinary.com/dhhw72iwq/image/upload/v1712579874/mastercard_o0bpqk.svg"
@@ -258,8 +258,8 @@ export default function Home() {
       <section className="py-24">
         <div className="container flex -md:flex-col md:items-center justify-between gap-12">
           <div className="">
-            <h2 className="text-6xl text-darkblue mb-4 items-start">Be bold</h2>
-            <p>Make Your Mark. Apply Today.</p>
+            <h2 className="text-7xl text-darkblue mb-4 items-start">Be bold</h2>
+            <p className="text-2xl">Make Your Mark. Apply Today.</p>
           </div>
           <div className="flex flex-col gap-4 items-start">
             <PageButton
@@ -278,25 +278,32 @@ export default function Home() {
         id="contact"
         className="bg-gradient-to-r from-[#000000] from-10% to-[#C89116]"
       >
-        <div className="container flex -md:flex-col justify-between py-40 items-start gap-24">
-          <div className="text-white flex flex-col gap-4">
-            <p className="text-4xl">Subscribe</p>
-            <p>Sign up to our newsletter to hear the latest updates</p>
-            <iframe
-              src="https://embeds.beehiiv.com/2c798a68-6d53-45ea-a891-e599ff3a8295?slim=true"
-              data-test-id="beehiiv-embed"
-              height="52"
-              frameBorder="0"
-              style={{
-                margin: 0,
-                borderRadius: "0 !important; background-color: transparent",
-              }}
-            ></iframe>
-          </div>
-          <div className="text-white flex flex-col gap-4">
-            <p className="text-4xl">Contact Details</p>
-            <p className="font-bold">Email:</p>
-            <p>info@emergeleaders.com</p>
+        <div className="container py-24">
+          <div className="bg-white p-16 gap-24 rounded-xl">
+            <div className="flex -md:flex-col gap-8 md:gap-24 items-end">
+              <p className="text-7xl">
+                Contact <br /> Information
+              </p>
+              <div className="">
+                <p className="font-bold">Email:</p>
+                <p>info@emergeleaders.com</p>
+              </div>
+            </div>
+            <div className="flex flex-col gap-4 mt-16">
+              <p className="text-4xl">Subscribe</p>
+              <p>Sign up to our newsletter to hear the latest updates</p>
+              <iframe
+                src="https://embeds.beehiiv.com/2c798a68-6d53-45ea-a891-e599ff3a8295?slim=true"
+                data-test-id="beehiiv-embed"
+                height="52"
+                frameBorder="0"
+                style={{
+                  margin: 0,
+                  borderRadius: "0 !important; background-color: transparent",
+                  maxWidth: "480px",
+                }}
+              ></iframe>
+            </div>
           </div>
         </div>
       </section>
