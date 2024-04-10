@@ -82,7 +82,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${libreb.variable} ${noto.variable} ${halyard.variable} text-dusk text-[16px]`}
+        className={`${inter.variable} ${libreb.variable} ${noto.variable} ${halyard.variable} text-dusk text-[18px]`}
       >
         <NavigationSection />
         {children}

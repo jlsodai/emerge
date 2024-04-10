@@ -94,7 +94,7 @@ export default function Home() {
       </section>
       <section className="bg-[#E6E6E6] relative z-10">
         <div className="container">
-          <p className="text-center text-2xl max-w-4xl mx-auto py-24">
+          <p className="text-center text-3xl max-w-6xl mx-auto py-24">
             Do you envision yourself at the forefront of economic
             transformation, breaking barriers and becoming the next generation
             of leadership in Africa? EMERGE is calling you.
@@ -207,7 +207,7 @@ export default function Home() {
           <div className="grid md:grid-cols-4 mb-8 -md:gap-8 gap-8">
             {steps.map((step, i) => (
               <div key={i} className="text-center md:ml-5">
-                <p className="font-bold px-8 py-4 rounded-full border-black border-2 inline-block mb-4">
+                <p className="font-bold px-16 py-4 rounded-full border-black border-2 inline-block mb-4">
                   Step {i + 1}
                 </p>
                 <p>{step}</p>
