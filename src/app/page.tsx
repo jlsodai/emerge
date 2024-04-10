@@ -108,7 +108,11 @@ export default function Home() {
               About <br />
               EMERGE
             </h2>
-            <img src="https://placehold.co/80" className="mt-4" alt="" />
+            <img
+              src="https://res.cloudinary.com/dhhw72iwq/image/upload/v1712738645/EmergeRings_b0cren.png"
+              className="mt-4 h-[80px]"
+              alt=""
+            />
           </div>
           <img
             className="self-center"
