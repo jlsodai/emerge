@@ -71,7 +71,8 @@ const halyard = localFont({
 export const metadata = {
   title:
     "EMERGE | Empowering Minds to Embrace Resilience, Growth, and Excellence",
-  description: "Empowering Minds to Embrace Resilience, Growth, and Excellence",
+  description:
+    "EMERGE, by TheBoardroom Africa, is a premier leadership development programme aiming to shape Africa's future by transforming the leadership pathways of ambitious 25-35-year-olds. Gain exclusive skills and insights to lead transformational change. And embrace resilience, growth, and excellence.",
 };
 
 export default function RootLayout({
