@@ -11,11 +11,11 @@ const features = [
   },
   {
     title: "Engaging Workshops",
-    desc: "Engage in workshops and masterclasses focused on Organisational Diversity, Governance, and ESG principles.. From addressing unconscious bias to enhancing your professional profile, our workshops equip you for holistic professional growth and ethical leadership.",
+    desc: "Engage in workshops and masterclasses focused on Organisational Diversity, Governance, and ESG principles. From addressing unconscious bias to enhancing your professional profile, our workshops equip you for holistic professional growth and ethical leadership.",
   },
   {
     title: "Mentorship",
-    desc: "6 virtual monthly mentorship sessions designed to align with your aspirations and leadership needs, fostering meaningful connections with mentors with senior executives.",
+    desc: "6 virtual monthly mentorship sessions designed to align with your aspirations and leadership needs, fostering meaningful connections with mentors who are senior executives.",
   },
   {
     title: "Virtual Community",
@@ -140,7 +140,7 @@ export default function Home() {
             <p className="mt-8">
               Find out more.{" "}
               <a href="#" className="text-mustard underline">
-                Register for information session.
+                Register for the information session →
               </a>
             </p>
           </div>
