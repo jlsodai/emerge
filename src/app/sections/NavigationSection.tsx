@@ -1,6 +1,8 @@
+"use client";
 /* eslint-disable @next/next/no-img-element */
 import Navigation from "@/app/components/Navigation";
 import Link from "next/link";
+import MobileNav from "../components/MobileNav";
 
 const links = [
   { title: "Home", url: "/" },
@@ -25,6 +27,7 @@ const NavigationSection = () => {
             />
           </Link>
           <Navigation links={links} />
+          <MobileNav links={links} />
         </div>
       </section>
     </>
