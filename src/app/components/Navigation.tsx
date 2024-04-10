@@ -52,7 +52,7 @@ const Navigation = ({ links }: Props) => {
   const currentPath = usePathname();
 
   return (
-    <div className="">
+    <div className="-md:hidden">
       {links.map((link, i) => (
         <Link
           href={link.url}

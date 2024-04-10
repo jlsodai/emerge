@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Inter, Libre_Baskerville, Noto_Serif_Display } from "next/font/google";
 import localFont from "next/font/local";
 import NavigationSection from "@/app/sections/NavigationSection";
+import FooterSection from "@/app/sections/FooterSection";
 
 const noto = Noto_Serif_Display({
   weight: ["400", "700", "900"],
@@ -87,6 +88,7 @@ export default function RootLayout({
       >
         <NavigationSection />
         {children}
+        <FooterSection />
       </body>
     </html>
   );

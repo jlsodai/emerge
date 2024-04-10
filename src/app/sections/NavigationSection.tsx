@@ -20,7 +20,7 @@ const NavigationSection = () => {
           <Link href="/">
             <img
               src="https://res.cloudinary.com/dhhw72iwq/image/upload/v1712736995/EMERGELogo_vyovkw.png"
-              width="250px"
+              className="w-[200px] md:w-[250px]"
               alt=""
             />
           </Link>

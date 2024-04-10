@@ -72,13 +72,13 @@ export default function Home() {
     <>
       <section className="bg-gradient-to-r from-[#000000] from-10% to-[#C89116]">
         <div className="">
-          <div className="container relative flex justify-between min-h-[800px] bg-[-100px] flex-col py-40 items-start z-10">
+          <div className="container relative flex justify-between gap-8 md:min-h-[800px] bg-[-100px] flex-col py-40 items-start z-10">
             <img
               src="https://res.cloudinary.com/dhhw72iwq/image/upload/v1712148938/NextGen_oji5dr.png"
               className="absolute top-[-100px] h-[calc(100%+200px)] -left-40 -z-10"
               alt=""
             />
-            <h1 className="text-9xl text-white">
+            <h1 className="text-6xl md:text-9xl text-white">
               Lead the <br />
               future
             </h1>
@@ -94,7 +94,7 @@ export default function Home() {
       </section>
       <section className="bg-[#E6E6E6] relative z-10">
         <div className="container">
-          <p className="text-center text-3xl max-w-6xl mx-auto py-24">
+          <p className="text-center text-xl md:text-3xl max-w-6xl mx-auto py-24">
             Do you envision yourself at the forefront of economic
             transformation, breaking barriers and becoming the next generation
             of leadership in Africa? EMERGE is calling you.
@@ -104,7 +104,7 @@ export default function Home() {
       <section className="py-24" id="overview">
         <div className="container grid md:grid-cols-2 gap-x-16 gap-y-8 items-center">
           <div className="">
-            <h2 className="self-center font-serif text-7xl">
+            <h2 className="self-center font-serif text-4xl md:text-7xl">
               About <br />
               EMERGE
             </h2>
@@ -148,7 +148,9 @@ export default function Home() {
       </section>
       <section className="bg-gradient-to-r from-[#A6A6A6] to-white">
         <div className="container py-24 bg-[url('https://res.cloudinary.com/dhhw72iwq/image/upload/v1712150060/Map_o8tpoe.png')] bg-no-repeat bg-right-top">
-          <h1 className="text-6xl text-darkblue mb-4">Key Features</h1>
+          <h1 className="text-4xl md:text-6xl text-darkblue mb-4">
+            Key Features
+          </h1>
           <p className="mb-16">
             Your journey begins with our flagship Growth Experience Programme, a
             comprehensive 6-month training comprising carefully crafted modules
@@ -162,10 +164,14 @@ export default function Home() {
           </p>
           <div className="grid md:grid-cols-2 gap-16">
             {features.map((feature, i) => (
-              <div key={i} className="flex gap-8 items-start">
-                <p className="text-7xl font-serif leading-[0.6]">0{i + 1}</p>
+              <div key={i} className="flex gap-4 md:gap-8 items-start">
+                <p className="text-4xl md:text-7xl font-serif leading-[0.6]">
+                  0{i + 1}
+                </p>
                 <div className="">
-                  <h3 className="font-serif text-3xl mb-4">{feature.title}</h3>
+                  <h3 className="font-serif text-2xl md:text-3xl mb-4">
+                    {feature.title}
+                  </h3>
                   <p>{feature.desc}</p>
                 </div>
               </div>
@@ -176,12 +182,14 @@ export default function Home() {
       <section>
         <div className="container grid md:grid-cols-2 md:gap-16 items-center">
           <div className="pt-24 md:pb-24 pb-8">
-            <h2 className="text-6xl text-darkblue mb-8">The Opportunity</h2>
-            <p className="text-[#A6A6A6] italic mb-6 w-[90%]">
+            <h2 className="text-4xl md:text-6xl text-darkblue mb-8">
+              The Opportunity
+            </h2>
+            <p className="text-[#A6A6A6] italic mb-6 md:w-[90%]">
               A 6-month launchpad to transformative leadership. The programme
               starts 5 June.
             </p>
-            <p className="max-w-[80%]">
+            <p className="md:max-w-[80%]">
               Register for EMERGE to be part of an inaugural cohort of 50
               leaders shaping Africa&apos;s future. This programme offers a
               unique blend of mentorship, expert-led masterclasses, and a
@@ -201,7 +209,7 @@ export default function Home() {
       </section>
       <section className="py-24 bg-[#FAF8F5]">
         <div className="container">
-          <h2 className="text-6xl text-darkblue mb-16 text-center">
+          <h2 className="text-4xl md:text-6xl text-darkblue mb-16 text-center">
             Application Process
           </h2>
           <div className="grid md:grid-cols-4 mb-8 -md:gap-8 gap-8">
@@ -226,7 +234,7 @@ export default function Home() {
       </section>
       <section className="py-24 bg-gradient-to-r from-[#A6A6A6] to-white">
         <div className="container">
-          <h2 className="text-6xl text-darkblue mb-16 text-center">
+          <h2 className="text-4xl md:text-6xl text-darkblue mb-16 text-center">
             Programme Experts
           </h2>
           <div className="grid md:grid-cols-4 gap-16 justify-center">
@@ -245,7 +253,7 @@ export default function Home() {
       </section>
       <section className="py-24 bg-dawn">
         <div className="container -md:flex-col flex items-center justify-center gap-24">
-          <h2 className="text-6xl text-darkblue text-center">
+          <h2 className="text-4xl md:text-6xl text-darkblue text-center">
             In partnership <br /> with
           </h2>
           <img
@@ -258,7 +266,9 @@ export default function Home() {
       <section className="py-24">
         <div className="container flex -md:flex-col md:items-center justify-between gap-12">
           <div className="">
-            <h2 className="text-7xl text-darkblue mb-4 items-start">Be bold</h2>
+            <h2 className=" text-5xl md:text-7xl text-darkblue mb-4 items-start">
+              Be bold
+            </h2>
             <p className="text-2xl">Make Your Mark. Apply Today.</p>
           </div>
           <div className="flex flex-col gap-4 items-start">
@@ -273,33 +283,6 @@ export default function Home() {
       </section>
       <section>
         <div className="container"></div>
-      </section>
-      <section
-        id="contact"
-        className="bg-gradient-to-r from-[#000000] from-10% to-[#C89116]"
-      >
-        <div className="container py-24">
-          <div className="bg-white p-16 gap-24 rounded-xl">
-            <p className="text-7xl">
-              Contact <br /> Information
-            </p>
-            <p className="font-bold mt-8">Email:</p>
-            <p>info@emergeleaders.com</p>
-            <div className="flex flex-col gap-4 mt-16">
-              <p className="text-4xl">Subscribe</p>
-              <p>Sign up to our newsletter to hear the latest updates</p>
-              <iframe
-                src="https://embeds.beehiiv.com/2c798a68-6d53-45ea-a891-e599ff3a8295?slim=true"
-                data-test-id="beehiiv-embed"
-                style={{
-                  margin: 0,
-                  borderRadius: "0 !important; background-color: transparent",
-                  maxWidth: "480px",
-                }}
-              ></iframe>
-            </div>
-          </div>
-        </div>
       </section>
     </>
   );
