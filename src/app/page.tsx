@@ -122,11 +122,11 @@ export default function Home() {
         </div>
         <div className="container grid md:grid-cols-2 gap-x-16 gap-y-8 mt-8">
           <p>
-            EMERGE powered by TheBoardroom Africa: A premier leadership
-            development programme for ambitious 25-35 year-olds aiming to shape
-            Africa&apos;s future. Gain exclusive skills and insights to lead
-            transformational change. Embrace resilience, growth, and excellence
-            with EMERGE.
+            EMERGE, by TheBoardroom Africa, is a premier leadership development
+            programme aiming to shape Africa&apos;s future by transforming the
+            leadership pathways of ambitious 25-35-year-olds. Gain exclusive
+            skills and insights to lead transformational change. And embrace
+            resilience, growth, and excellence.
           </p>
           <div className="">
             <p>
