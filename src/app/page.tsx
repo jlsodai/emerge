@@ -280,23 +280,17 @@ export default function Home() {
       >
         <div className="container py-24">
           <div className="bg-white p-16 gap-24 rounded-xl">
-            <div className="flex -md:flex-col gap-8 md:gap-24 md:items-end">
-              <p className="text-7xl">
-                Contact <br /> Information
-              </p>
-              <div className="">
-                <p className="font-bold">Email:</p>
-                <p>info@emergeleaders.com</p>
-              </div>
-            </div>
+            <p className="text-7xl">
+              Contact <br /> Information
+            </p>
+            <p className="font-bold mt-8">Email:</p>
+            <p>info@emergeleaders.com</p>
             <div className="flex flex-col gap-4 mt-16">
               <p className="text-4xl">Subscribe</p>
               <p>Sign up to our newsletter to hear the latest updates</p>
               <iframe
                 src="https://embeds.beehiiv.com/2c798a68-6d53-45ea-a891-e599ff3a8295?slim=true"
                 data-test-id="beehiiv-embed"
-                height="52"
-                frameBorder="0"
                 style={{
                   margin: 0,
                   borderRadius: "0 !important; background-color: transparent",
