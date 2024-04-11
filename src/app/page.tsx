@@ -139,7 +139,11 @@ export default function Home() {
             </p>
             <p className="mt-8">
               Find out more.{" "}
-              <a href="#" className="text-mustard underline">
+              <a
+                href="https://us02web.zoom.us/webinar/register/WN_wzVLOSaRRgGTviTJaWPQ_Q"
+                className="text-mustard underline"
+                target="_blank"
+              >
                 Register for the information session →
               </a>
             </p>
