@@ -5,7 +5,7 @@ Applications will be open from **Friday 19 April 2024, to Friday 10 May 2024**. 
 
 ### Do I need to pay to participate in EMERGE?
 
-EMERGE is offered at no cost to eligible participants through our partnership with The Mastercard Foundation. There are no associated application, registration, or programme fees. Participants should however have their own internet-connected device and ensure reliable internet access, as the programme is conducted online. Additionally, all learning activities are conducted on the Zoom platform, so participants should have access to Zoom for seamless participation in the programme's workshops and sessions.
+EMERGE is offered at no cost to eligible participants through our partnership with The Mastercard Foundation. There are no associated application, registration, or programme fees. Participants should, however, have their own internet-connected device and ensure reliable internet access, as the programme is conducted online. Additionally, all learning activities are conducted on the Zoom platform, so participants should have access to Zoom for seamless participation in the programme's workshops and sessions.
 
 ### How do I know if I am eligible to apply for EMERGE?
 
