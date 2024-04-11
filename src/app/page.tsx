@@ -90,7 +90,7 @@ export default function Home() {
               future
             </h1>
             <PageButton
-              className="text-white border-white"
+              className="text-white border-white border-2"
               variation="white"
               title="Apply Today"
               target="_blank"
@@ -226,9 +226,11 @@ export default function Home() {
           <div className="grid md:grid-cols-4 mb-8 -md:gap-8 gap-8">
             {steps.map((step, i) => (
               <div key={i} className="text-center md:ml-5">
-                <p className="font-bold px-16 py-4 rounded-full border-black border-2 inline-block mb-4">
-                  Step {i + 1}
-                </p>
+                <div className="font-bold p-[1px] rounded-full bg-gradient-to-r from-[#000000] from-10% to-[#C89116] border-2 inline-block mb-4">
+                  <p className="bg-[#FAF8F5] rounded-full px-16 py-4">
+                    Step {i + 1}
+                  </p>
+                </div>
                 <p>{step}</p>
               </div>
             ))}
@@ -285,11 +287,12 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-4 items-start">
             <PageButton
+              className="bg-white"
               title="Apply Today"
               target="_blank"
               href="https://emergeapplication.paperform.co/"
             />
-            <PageButton title="FAQs" href="/faqs" />
+            <PageButton className="bg-white" title="FAQs" href="/faqs" />
           </div>
         </div>
       </section>

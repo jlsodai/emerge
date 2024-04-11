@@ -9,26 +9,34 @@ const PageButton = ({
   target = "",
 }) => {
   return (
-    <Link
-      target={target}
-      href={href}
-      className={`flex gap-4 items-center w-[220px] pl-8 py-4 border-2 border-dusk font-bold ${className}`}
+    <div
+      className={`${
+        variation !== "white"
+          ? "p-[2px] bg-gradient-to-r from-[#000000] from-10% to-[#C89116]"
+          : ""
+      }`}
     >
-      {variation === "white" ? (
-        <img
-          src="https://res.cloudinary.com/dhhw72iwq/image/upload/co_rgb:ffffff,e_colorize:100/v1712306665/ext-link_o62nnb.png"
-          alt=""
-          className="h-6"
-        />
-      ) : (
-        <img
-          src="https://res.cloudinary.com/dhhw72iwq/image/upload/v1712306665/ext-link_o62nnb.png"
-          alt=""
-          className="h-6"
-        />
-      )}
-      {title}
-    </Link>
+      <Link
+        target={target}
+        href={href}
+        className={`flex gap-4 items-center w-[220px] pl-8 py-4 font-bold ${className}`}
+      >
+        {variation === "white" ? (
+          <img
+            src="https://res.cloudinary.com/dhhw72iwq/image/upload/co_rgb:ffffff,e_colorize:100/v1712306665/ext-link_o62nnb.png"
+            alt=""
+            className="h-6"
+          />
+        ) : (
+          <img
+            src="https://res.cloudinary.com/dhhw72iwq/image/upload/v1712306665/ext-link_o62nnb.png"
+            alt=""
+            className="h-6"
+          />
+        )}
+        {title}
+      </Link>
+    </div>
   );
 };
 
