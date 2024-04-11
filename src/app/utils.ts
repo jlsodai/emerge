@@ -12,7 +12,7 @@ EMERGE is offered at no cost to eligible participants through our partnership wi
 You are eligible to apply for the EMERGE programme if you are/have:
 
 - 25 - 35 years old
-- Completed a university degree
+- Completed a university degree desirable
 - Have a good understanding of the English language (the programme will be delivered in English)
 - 3+ years of professional work experience
 - An African national

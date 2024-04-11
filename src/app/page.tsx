@@ -124,7 +124,7 @@ export default function Home() {
           <p>
             EMERGE, by TheBoardroom Africa, is a premier leadership development
             programme aiming to shape Africa&apos;s future by transforming the
-            leadership pathways of ambitious 25-35-year-olds. Gain exclusive
+            leadership pathways of ambitious 25-35 year olds. Gain exclusive
             skills and insights to lead transformational change. And embrace
             resilience, growth, and excellence.
           </p>
