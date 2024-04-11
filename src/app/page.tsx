@@ -33,36 +33,43 @@ const steps = [
 const experts = [
   {
     name: "Rosalind Kainyah",
+    title: "Managing Director, Kina Advisory ",
     imgUrl:
       "https://res.cloudinary.com/tbra/image/upload/v1690559964/RachelK_l1ecvs.jpg",
   },
   {
     name: "Rachel Nyaradzo Adams",
+    title: "Founder, Narachi Leadership",
     imgUrl:
       "https://res.cloudinary.com/dhhw72iwq/image/upload/v1712737349/RachelN_eyimu9.jpg",
   },
   {
     name: "Majorie Ngwenya",
+    title: "Leadership Coach, Non-Executive Director and Author",
     imgUrl:
       "https://res.cloudinary.com/dhhw72iwq/image/upload/v1706882895/Marjorie_h1vxy7.jpg",
   },
   {
     name: "Lanre Fisher",
+    title: "Senior Advisor, Search",
     imgUrl:
       "https://res.cloudinary.com/dhhw72iwq/image/upload/v1712737565/Lanre_alfsbz.jpg",
   },
   {
     name: "Marcia Ashong-Sam",
+    title: "Founder and CEO, TheBoardroom Africa",
     imgUrl:
       "https://res.cloudinary.com/tbra/image/upload/v1680706201/marcia_yzavpl.jpg",
   },
   {
     name: "Khurshed Moakes",
+    title: "COO, TheBoardroom Africa",
     imgUrl:
       "https://res.cloudinary.com/dhhw72iwq/image/upload/v1712737564/khurshed_iogedz.jpg",
   },
   {
-    name: "Akiniyi Ochieng",
+    name: "Akinyi Ochieng",
+    title: "Senior Associate Director, Social Impact at APCO Worldwide",
     imgUrl:
       "https://res.cloudinary.com/dhhw72iwq/image/upload/v1712740151/akinyi_m7ubmf.webp",
   },
@@ -250,6 +257,7 @@ export default function Home() {
                   alt=""
                 />
                 <p className="mt-4 font-bold text-center">{expert.name}</p>
+                <p className="text-center">{expert.title}</p>
               </div>
             ))}
           </div>
