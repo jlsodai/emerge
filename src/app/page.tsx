@@ -3,6 +3,7 @@ import Image from "next/image";
 import PageButton from "@/app/components/PageButton";
 import Link from "next/link";
 import Navigation from "@/app/components/Navigation";
+import NavigationSection from "./sections/NavigationSection";
 
 const features = [
   {
@@ -77,6 +78,7 @@ const experts = [
 export default function Home() {
   return (
     <>
+      <NavigationSection />
       <section className="bg-gradient-to-r from-[#000000] from-10% to-[#C89116]">
         <div className="">
           <div className="container relative flex justify-between gap-8 md:min-h-[800px] bg-[-100px] flex-col py-40 items-start z-10">
@@ -267,9 +269,6 @@ export default function Home() {
       </section>
       <section className="py-24 bg-dawn">
         <div className="container -md:flex-col flex items-center justify-center gap-24">
-          <h2 className="text-4xl md:text-6xl text-darkblue text-center">
-            In partnership <br /> with
-          </h2>
           <img
             src="https://res.cloudinary.com/dhhw72iwq/image/upload/v1712579874/mastercard_o0bpqk.svg"
             width="200px"

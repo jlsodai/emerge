@@ -14,7 +14,7 @@ const links = [
   { title: "Contact Us", url: "/#contact" },
 ];
 
-const NavigationSection = () => {
+const NavigationSection = ({ mcard = false }) => {
   return (
     <>
       <section className="z-30 relative">
@@ -27,7 +27,18 @@ const NavigationSection = () => {
             />
           </Link>
           <Navigation links={links} />
-          <MobileNav links={links} />
+          {mcard ? (
+            <div className="flex gap-8 items-center">
+              <img
+                src="https://res.cloudinary.com/dhhw72iwq/image/upload/v1712579874/mastercard_o0bpqk.svg"
+                className="w-[70px]"
+                alt=""
+              />
+              <MobileNav links={links} />
+            </div>
+          ) : (
+            <MobileNav links={links} />
+          )}
         </div>
       </section>
     </>
