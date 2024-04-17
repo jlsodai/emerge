@@ -74,6 +74,10 @@ export const metadata = {
     "EMERGE | Empowering Minds to Embrace Resilience, Growth, and Excellence",
   description:
     "EMERGE, by TheBoardroom Africa, is a premier leadership development programme aiming to shape Africa's future by transforming the leadership pathways of ambitious 25-35-year-olds. Gain exclusive skills and insights to lead transformational change. And embrace resilience, growth, and excellence.",
+  openGraph: {
+    images:
+      "https://res.cloudinary.com/dhhw72iwq/image/upload/v1713345671/open-graph_akn6ik.jpg",
+  },
 };
 
 export default function RootLayout({
