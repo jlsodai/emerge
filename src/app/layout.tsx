@@ -90,6 +90,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${libreb.variable} ${noto.variable} ${halyard.variable} text-dusk text-[18px]`}
       >
+        <NavigationSection mcard={true} />
         {children}
         <FooterSection />
       </body>

@@ -5,7 +5,6 @@ import NavigationSection from "../sections/NavigationSection";
 const page = () => {
   return (
     <>
-      <NavigationSection mcard={true} />
       <section className="bg-gradient-to-r from-[#000000] from-10% to-[#C89116] py-24">
         <div className="container">
           <h1 className="text-6xl text-white">

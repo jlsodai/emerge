@@ -78,7 +78,6 @@ const experts = [
 export default function Home() {
   return (
     <>
-      <NavigationSection />
       <section className="bg-gradient-to-r from-[#000000] from-10% to-[#C89116]">
         <div className="">
           <div className="container relative flex justify-between gap-8 md:min-h-[800px] bg-[-100px] flex-col py-40 items-start z-10">
@@ -267,7 +266,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="py-24 bg-dawn">
+      {/* <section className="py-24 bg-dawn">
         <div className="container -md:flex-col flex items-center justify-center gap-24">
           <img
             src="https://res.cloudinary.com/dhhw72iwq/image/upload/v1712579874/mastercard_o0bpqk.svg"
@@ -275,7 +274,7 @@ export default function Home() {
             alt=""
           />
         </div>
-      </section>
+      </section> */}
       <section className="py-24">
         <div className="container flex -md:flex-col md:items-center justify-between gap-12">
           <div className="">
