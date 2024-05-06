@@ -199,7 +199,7 @@ export default function Home() {
             </h2>
             <p className="text-[#A6A6A6] italic mb-6 md:w-[90%]">
               A 6-month launchpad to transformative leadership. The programme
-              starts 5 June.
+              starts 27 June.
             </p>
             <p className="md:max-w-[80%]">
               Register for EMERGE to be part of an inaugural cohort of 50
