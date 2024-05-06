@@ -145,7 +145,7 @@ export default function Home() {
               lead inclusive, innovative, and impactful organisations across
               Africa.
             </p>
-            <p className="mt-8">
+            {/* <p className="mt-8">
               Find out more.{" "}
               <a
                 href="https://us02web.zoom.us/webinar/register/WN_wzVLOSaRRgGTviTJaWPQ_Q"
@@ -154,7 +154,7 @@ export default function Home() {
               >
                 Register for the information session →
               </a>
-            </p>
+            </p> */}
           </div>
         </div>
       </section>
