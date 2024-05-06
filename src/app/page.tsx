@@ -28,7 +28,7 @@ const steps = [
   "Apply through the application link",
   "Receive feedback within two weeks",
   "Successful applicants will be issued an Onboarding Pack",
-  "Programme start - 5 June 2024",
+  "Programme start - 27 June 2024",
 ];
 
 const experts = [
