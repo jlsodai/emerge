@@ -69,7 +69,7 @@ const experts = [
       "https://res.cloudinary.com/dhhw72iwq/image/upload/v1712737564/khurshed_iogedz.jpg",
   },
   {
-    name: "Akinyi Ochieng Sagoe-Moses",
+    name: "Akinyi Ochieng",
     title: "Senior Associate Director, Social Impact at APCO Worldwide",
     imgUrl:
       "https://res.cloudinary.com/dhhw72iwq/image/upload/v1712740151/akinyi_m7ubmf.webp",
